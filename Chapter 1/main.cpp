@@ -11,11 +11,13 @@ int basic_io() {
     int a = 10;
     double b = 3.14;
     char c = 'R';
-    string name = "Robot";
+    string name;
 
     cout << "Integer a = " << a << endl;
     cout << "Double b = " << b << endl;
     cout << "Char c = " << c << endl;
+    cout << "Please enter your name: ";
+    cin >> name;
     cout << "String name = " << name << endl;
 
     return 0;
@@ -156,12 +158,12 @@ int main() {
 
     // Uncomment line by line during workshop to demonstrate each part.
 
-    // basic_io();
+    basic_io();
     // arithmetic_demo();
     // if_else_demo();
     // switch_demo();
     // for_loop_demo();
-    while_loop_demo();
+    // while_loop_demo();
 
     return 0;
 }
